@@ -10,32 +10,21 @@
   vivid depiction of which group is significantly greater than which others, especially if comparing
   a large number of groups.
 }
-\details{
-\tabular{ll}{
-Package: \tab paircompviz\cr
-Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2012-10-24\cr
-License: \tab GPL-2\cr
-}
-~~ An overview of how to use the package, including the most important functions ~~
-}
+%\details{
+%~~ An overview of how to use the package, including the most important functions ~~
+%}
 \author{
-Michal Burda
-
-Maintainer: Michal Burda <michal.burda@osu.cz>
+Michal Burda <michal.burda@osu.cz>
 }
-\references{
-~~ Literature or other references for background information ~~
-}
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation directory ~~
-\keyword{ package }
+%\references{
+%~~ Literature or other references for background information ~~
+%}
 \keyword{ hplot }
 \keyword{ htest }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
+%\seealso{
+  %\code{\link[multcomp:multcomp-package]{multcomp}} ~~
+  %\code{\link[Rgraphviz:Rgraphviz-package]{Rgraphviz}} ~~
+%}
 \examples{
-#~~ simple examples of the most important functions ~~
+  paircomp(InsectSprays$count, InsectSprays$spray, test="t")
 }

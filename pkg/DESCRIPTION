@@ -2,7 +2,7 @@ Package: paircompviz
 Type: Package
 Title: Multiple comparison test visualization
 Version: 1.0
-Date: 2012-10-24
+Date: 2013-06-01
 Author: Michal Burda
 Maintainer: Michal Burda <michal.burda@osu.cz>
 Description: This package provides visualization of the results from the multiple (i.e. pairwise)
@@ -11,4 +11,5 @@ Description: This package provides visualization of the results from the multipl
   vivid depiction of which group is significantly greater than which others, especially if comparing
   a large number of groups.
 Depends: Rgraphviz
+Suggests: multcomp, reshape, rpart
 License: GPL-2
